@@ -26,19 +26,11 @@ aside h1 {
   text-align: center;
 }
 aside ul {
-  padding: 0 2em;
+  padding: 0 1em;
   list-style: none;
 }
 aside ul li {
-  margin: 1em;
-}
-
-.email-icon:before {
-  display: inline-block;
-  font-family: "FontAwesome";
-  content: "";
-  color: black;
-  margin-right: 5px;
+  margin: 0.5em;
 }
 
 .github-icon:before {
