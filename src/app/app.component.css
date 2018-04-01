@@ -1,0 +1,8 @@
+app-my-aside{
+  flex: 2;
+  border-right: 1px dashed black;
+  color: black;
+}
+app-my-nav{
+  flex: 1;
+}

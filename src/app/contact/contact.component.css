@@ -1,0 +1,39 @@
+section form {
+  margin: 1em;
+  margin-left: 2em;
+  padding: 1em;
+  text-align: center;
+}
+section h1{
+  color: black;
+}
+section form input {
+  padding: 1em;
+  margin: 0.25em;
+  border-radius: 5px;
+  outline: none;
+  width: 40%;
+  background-color: #dfdce3;
+}
+section form input[type=submit] {
+  margin: 1em;
+  width: 40%;
+  background-color: #dfdce3;
+  border: 2px solid #fc4a1a;
+  font-size: 1.1em;
+}
+section form input[type=submit]:hover {
+  padding: 1em;
+  margin: 1em;
+  width: 40%;
+  background-color: #fc4a1a;
+  color: #dfdce3;
+}
+section form textarea {
+  padding: 1em;
+  margin: 0.25em;
+  border-radius: 5px;
+  outline: none;
+  width: 40%;
+  background-color: #dfdce3;
+}

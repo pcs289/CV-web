@@ -1,0 +1,42 @@
+section h1 {
+  font-size: 2em;
+  margin: 1em;
+  color: black;
+}
+section p {
+  margin: 1em;
+  color: black;
+}
+section .skills {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+section .skills p {
+  border-radius: 10px;
+  background-color: #fc4a1a;
+  color: #dfdce3;
+  padding: 1em;
+  margin: 0.5em;
+}
+section .skills p:after {
+  display: inline-block;
+}
+section .softskills {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+section .softskills p {
+  border-radius: 10px;
+  background-color: #dfdce3;
+  color: black;
+  border: 1px solid #fc4a1a;
+  padding: 1em;
+  margin: 0.5em;
+}
+section .softskills p:after {
+  display: inline-block;
+}

@@ -1,0 +1,58 @@
+aside a {
+  color: black;
+}
+aside button {
+  display: block;
+  margin: 0 auto;
+  padding: 1em;
+  border-radius: 5px;
+  font-size: 1.1em;
+  outline: none;
+  background-color: #dfdce3;
+  border: 2px solid #fc4a1a;
+}
+aside button:hover {
+  background-color: #fc4a1a;
+  color: #dfdce3;
+}
+aside img {
+  display: block;
+  margin: 1em auto;
+  width: 75%;
+  background-color: #dfdce3;
+}
+aside h1 {
+  margin: 1em 0;
+  text-align: center;
+}
+aside ul {
+  padding: 0 2em;
+  list-style: none;
+}
+aside ul li {
+  margin: 1em;
+}
+
+.email-icon:before {
+  display: inline-block;
+  font-family: "FontAwesome";
+  content: "";
+  color: black;
+  margin-right: 5px;
+}
+
+.github-icon:before {
+  display: inline-block;
+  font-family: "FontAwesome";
+  content: "";
+  color: black;
+  margin-right: 5px;
+}
+
+.linkedin-icon:before {
+  display: inline-block;
+  font-family: "FontAwesome";
+  content: "";
+  color: black;
+  margin-right: 5px;
+}
