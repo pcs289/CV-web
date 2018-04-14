@@ -1,3 +1,15 @@
+@font-face {
+   font-family: 'Apple';
+   src: url('/assets/HomemadeApple.ttf');
+}
+@font-face {
+   font-family: 'Place';
+   src: url('/assets/HopelessPlace.ttf');
+}
+@font-face {
+   font-family: 'Type';
+   src: url('/assets/typewriter.ttf');
+}
 nav {
   flex: 1;
 }
@@ -12,14 +24,15 @@ nav ul {
 nav ul li {
   margin: 0.5em;
   text-align: center;
-  border-left: 2px solid #fc4a1a;
+  border-left: 2px solid maroon;
 }
 nav ul li a {
   text-decoration: none;
+  font-family: Apple;
   color: black;
 }
 nav ul li:hover {
-  background-color: #fc4a1a;
+  background-color: maroon;
   border-radius: 5px;
 }
 nav ul li:hover a {

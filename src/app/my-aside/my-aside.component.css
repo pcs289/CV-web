@@ -1,5 +1,19 @@
+@font-face {
+   font-family: 'Apple';
+   src: url('/assets/HomemadeApple.ttf');
+}
+@font-face {
+   font-family: 'Place';
+   src: url('/assets/HopelessPlace.ttf');
+}
+@font-face {
+   font-family: 'Type';
+   src: url('/assets/typewriter.ttf');
+}
 aside a {
   color: black;
+  font-family: Type;
+  text-decoration: none;
 }
 aside button {
   display: block;
@@ -7,12 +21,13 @@ aside button {
   padding: 1em;
   border-radius: 5px;
   font-size: 1.1em;
+  font-family: Place;
   outline: none;
   background-color: #dfdce3;
-  border: 2px solid #fc4a1a;
+  border: 2px solid maroon;
 }
 aside button:hover {
-  background-color: #fc4a1a;
+  background-color: maroon;
   color: #dfdce3;
 }
 aside img {
@@ -24,12 +39,15 @@ aside img {
 aside h1 {
   margin: 1em 0;
   text-align: center;
+  font-family: Place;
+  text-decoration: none;
 }
 aside ul {
   padding: 0 1em;
   list-style: none;
 }
 aside ul li {
+  font-family: Type;
   margin: 0.5em;
 }
 

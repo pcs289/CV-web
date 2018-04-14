@@ -11,7 +11,6 @@ import { ExperienceComponent } from './experience/experience.component';
 import { InterestsComponent } from './interests/interests.component';
 import { AboutComponent } from './about/about.component';
 
-
 const appRoutes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'contact', component: ContactComponent },
