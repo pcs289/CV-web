@@ -1,11 +1,27 @@
+@font-face {
+   font-family: 'Apple';
+   src: url('/assets/HomemadeApple.ttf');
+}
+@font-face {
+   font-family: 'Place';
+   src: url('/assets/HopelessPlace.ttf');
+}
+@font-face {
+   font-family: 'Type';
+   src: url('/assets/typewriter.ttf');
+}
 section form {
   margin: 1em;
   margin-left: 2em;
   padding: 1em;
   text-align: center;
+
 }
 section h1{
   color: black;
+  font-family: Type;
+  font-size: 2em;
+  margin: 1em;
 }
 section form input {
   padding: 1em;
@@ -14,19 +30,21 @@ section form input {
   outline: none;
   width: 40%;
   background-color: #dfdce3;
+  font-family: Place;
 }
 section form input[type=submit] {
   margin: 1em;
   width: 40%;
   background-color: #dfdce3;
-  border: 2px solid #fc4a1a;
+  border: 2px solid maroon;
   font-size: 1.1em;
+  font-family: Place;
 }
 section form input[type=submit]:hover {
   padding: 1em;
   margin: 1em;
   width: 40%;
-  background-color: #fc4a1a;
+  background-color: maroon;
   color: #dfdce3;
 }
 section form textarea {
@@ -36,4 +54,5 @@ section form textarea {
   outline: none;
   width: 40%;
   background-color: #dfdce3;
+  font-family: Place;
 }

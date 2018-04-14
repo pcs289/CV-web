@@ -1,11 +1,25 @@
+@font-face {
+   font-family: 'Apple';
+   src: url('/assets/HomemadeApple.ttf');
+}
+@font-face {
+   font-family: 'Place';
+   src: url('/assets/HopelessPlace.ttf');
+}
+@font-face {
+   font-family: 'Type';
+   src: url('/assets/typewriter.ttf');
+}
 section h1 {
   font-size: 2em;
   margin: 1em;
   color: black;
+  font-family: Type;
 }
 section p {
   margin: 1em;
   color: black;
+  font-family: Type;
 }
 section .skills {
   display: flex;
